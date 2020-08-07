@@ -1,0 +1,374 @@
+/* ---------------------------*/
+/* basic setup */
+/* ---------------------------*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+html,body{
+    background: linear-gradient(to right,#f4f4f4 , #f4f4f4);
+    color: #555;
+    font-family: 'Lato','Aerial',sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;  
+    overflow-x: hidden;	
+    
+}
+body{	
+    max-width: 1050px;
+    margin: auto auto ;
+}
+/* ---------------------------*/
+/* reusable component */
+/* ---------------------------*/
+
+.resume{			
+	
+}
+.introductionTop{   
+    margin: 0 0;
+}
+/* ---------------------------*/
+/* image component */
+/* ---------------------------*/
+.profileImg{
+    text-align: left;
+    margin-left: 10px;
+	padding: 2px 2px 0 1px;
+    float: left;
+}
+.profileImg img{
+	width: 100px;
+	border-radius: 100px;
+}
+/* ---------------------------*/
+/* general info component */
+/* ---------------------------*/
+.genrealInfo{    
+    float: right;
+    text-align: left;
+    background: rgb(22, 47, 77);   
+    
+}
+.name,.role,.about{
+    margin-left:150px;
+    
+}
+
+/* ---------------------------*/
+/* name, role, about */
+/* ---------------------------*/
+.name{
+    color:#e5e5e5;
+    font-size: 125%;
+	font-weight: 700;
+	text-transform: uppercase;
+    letter-spacing: 2px;
+	padding-bottom: 5px;
+    margin-top:20px;
+}
+.role{
+    color:rgba(212, 212, 212, 0.92);
+    font-size: 90%;
+    letter-spacing: 1px;
+	padding-bottom: 10px;
+}
+.about{
+    color:#e5e5e5;
+    font-size: 80%;
+    width:65%;
+    
+}
+/* ---------------------------*/
+/* contact details*/
+/* ---------------------------*/
+.contactInfo{    
+    text-align: left;
+    background: rgb(10, 29, 52);
+    padding-bottom: 2px; 
+   
+}
+.contactInfo ul{  
+    width: 100%;
+    list-style: none;
+    text-align: center;
+    color:#e6e6e6;
+    font-size: 75%;
+    margin-left:-50px;
+}
+.contactInfo li{
+    display: inline-block;
+    margin-right: 20px;
+   
+}
+
+/* ---------------------------*/
+/* icons */
+/* ---------------------------*/
+.material-icons{
+    padding: 5px 0;   
+    vertical-align: middle;
+    font-s
+    
+    
+}
+div p{
+    
+    display: inline-block;
+    text-align: center;
+    margin:10px 2px;
+    padding-left: 5px;
+    
+}
+
+/* ---------------------------*/
+/* icons */
+/* ---------------------------*/
+
+.left{
+	background: rgb(22, 47, 77);
+	width: 250px;
+	padding: 20px 20px;
+    margin-bottom: 15px;
+    float:left;
+}
+
+.left .text{
+	color: #9153c9;
+	font-size: 13px;
+}
+
+.skills li,.Tools li,.Awards li,.certification li{
+    list-style: none;
+}
+.title{
+	font-size: 20px;
+	font-weight: 500;
+	padding-bottom: 10px;
+	color: #3525af;
+	position: relative;
+	text-align: right;
+	margin-bottom: 15px;
+}
+
+.title:before{
+	content: "";
+	position: absolute;
+	top: 30px;
+	right: 0;
+	width: 55px;
+	height: 2px;
+	background: #3525af;
+}
+.left .text{
+	color: #9153c9;	
+	font-size: 13px;
+}
+.left  .certification .text{		
+	font-size: 12px;
+}
+
+.skills ul,.Tools ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.skills .li_wrap,.Tools .li_wrap{
+	width: 100px;
+	height: 20px;
+	margin-bottom: 15px;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    background: #fff;
+}
+.Awards .li_wrap,.certification .li_wrap{
+    width: 200px;
+	height: 22px;
+	margin-bottom: 15px;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    background: #fff; 
+}
+
+.skills .li_wrap .text,
+.Tools .li_wrap .text{
+	margin-top: 5px 5px;    
+}
+/* ---------------------------*/
+/* right side */
+/* ---------------------------*/
+.right{
+    width: 100%;
+    margin-right:2px;
+}
+
+.right_inner{
+	padding: 2px;	
+	color: #292b2f;
+}
+
+.right_inner .education{
+	margin-top: 30px;
+}
+
+/* ---------------------------*/
+/* right side spacing */
+/* ---------------------------*/
+.exp_wrap,.education_wrap{
+    padding-left: 270px;    
+        
+}
+.exp_wrap li,.education_wrap li{
+    list-style: none;
+    
+}
+/* ---------------------------*/
+/* list formattting */
+/* ---------------------------*/
+
+.right_inner .li_wrap{
+	display: flex;
+	margin-bottom: 20px;
+}
+.right_inner .li_wrap .date {
+    width: 125px;
+    color: #1509ad;
+    font-size: 16px;
+}
+
+.right_inner .li_wrap .info{
+	width: calc(100%  - 125px);
+	padding-left: 25px;
+	position: relative;
+}
+.right_inner .li_wrap .info_title{
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 1px;
+	color: #1509ad;
+}
+.right_inner .li_wrap .info_com{
+	font-weight: 300;
+	font-size: 14px;
+	margin-top: 3px;
+}
+.right_inner .li_wrap .info_cont{
+	margin-top: 15px;
+}
+.right_inner .li_wrap .info:before{
+	content: "";
+	position: absolute;
+	top: 3px;
+	left: 0;
+	width: 10px;
+	height: 10px;
+	background: #9153c9;
+	border-radius: 50%;
+}
+
+.right_inner .li_wrap .info:after{
+	content: "";
+	position: absolute;
+	top: 10px;
+	left: 4px;
+	width: 2px;
+	height: 90%;
+	background: #9153c9;
+}
+
+
+
+
+
+/* ---------------------------*/
+/* duration spacing */
+/* ---------------------------*/
+
+
+
+
+.right_inner .li_wrap .info{
+    font-size: 16px;	
+	padding-left: 25px;
+	position: relative;
+}
+
+.right_inner .education{
+	margin-top: 10px;    
+}
+
+.right_inner .li_wrap .info_title{
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 2px;
+	color: #1509ad;
+}
+.right_inner .li_wrap .info_com{
+	font-weight: 300;
+	font-size: 14px;
+	margin-top: 3px;
+}
+.right_inner .li_wrap .info_cont{
+	margin-top: 15px;
+}
+.right_inner .li_wrap .info:before{
+	content: "";
+	position: absolute;
+	top: 3px;
+	left: 0;
+	width: 10px;
+	height: 10px;
+	background:#1509ad ;
+	border-radius: 50%;
+}
+.right_inner .li_wrap .info:after{
+	content: "";
+	position: absolute;
+	top: 10px;
+	left: 4px;
+	width: 2px;
+	height: 90%;
+	background: #1509ad;
+}
+/* added again*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
