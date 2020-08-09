@@ -135,13 +135,11 @@ a:active{
 }
 
 /* div efffect*/
-div p{
-    
+div p{    
     display: inline-block;
     text-align: center;
     margin:10px 2px;
-    padding-left: 5px;
-    
+    padding-left: 5px;    
 }
 /* ---------------------------*/
 /* main content part   */
@@ -155,7 +153,7 @@ div p{
 
 .left{
 	background: rgb(22, 47, 77);	
-	padding: 18px 20px;
+	padding: 18px 20px 1px 20px;
     float:left;
     width:22%;
     margin-right: 5px;
