@@ -4,8 +4,7 @@
 *{
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
-	
+	box-sizing: border-box;	
 }
 html,body{
     background: linear-gradient(to right,#f4f4f4 , #f4f4f4);
@@ -18,19 +17,19 @@ html,body{
     
 }
 body{	
-    max-width: 1050px;
-    margin: auto auto ;
+    max-width: 1140px;
+    margin: auto auto;
+    
 }
 /* ---------------------------*/
 /* reusable component */
 /* ---------------------------*/
 
-.resume{			
-	
+.genrealInfo,.contactInfo{			
+	width:100%;
+    margin: 0 0;        
 }
-.introductionTop{   
-    margin: 0 0;
-}
+
 /* ---------------------------*/
 /* image component */
 /* ---------------------------*/
@@ -50,11 +49,14 @@ body{
 .genrealInfo{    
     float: right;
     text-align: left;
-    background: rgb(22, 47, 77);   
+    background: rgb(22, 47, 77);  
+   
     
 }
 .name,.role,.about{
     margin-left:150px;
+    margin-right: 30px;
+     box-sizing: border-box;
     
 }
 
@@ -69,17 +71,19 @@ body{
     letter-spacing: 2px;
 	padding-bottom: 5px;
     margin-top:20px;
+    width:18%;
 }
 .role{
     color:rgba(212, 212, 212, 0.92);
     font-size: 90%;
     letter-spacing: 1px;
 	padding-bottom: 10px;
+    width:18%;
 }
 .about{
     color:#e5e5e5;
     font-size: 80%;
-    width:65%;
+    width:75%;
     
 }
 /* ---------------------------*/
@@ -88,33 +92,49 @@ body{
 .contactInfo{    
     text-align: left;
     background: rgb(10, 29, 52);
-    padding-bottom: 2px; 
+    padding:0 2px 2px 0; 
    
 }
-.contactInfo ul{  
-    width: 100%;
+.contactInfo ul{     
     list-style: none;
     text-align: center;
     color:#e6e6e6;
     font-size: 75%;
-    margin-left:-50px;
+    margin-right:-20px;
+    word-spacing: 60px;
+    margin-left: 2px;
+    padding-left: 27px;
+    
 }
 .contactInfo li{
     display: inline-block;
-    margin-right: 20px;
-   
 }
 
 /* ---------------------------*/
 /* icons */
 /* ---------------------------*/
-.material-icons{
-    padding: 5px 0;   
-    vertical-align: middle;
-    font-s
-    
-    
+.mobFont{
+    font-size: large;
 }
+
+/* ---------------------------*/
+/* anchor hover efect */
+/* ---------------------------*/
+a:link,
+a:visited{
+    color:#e6e6e6;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    padding-bottom: 1px;
+    transition: border-bottom .2s , color 0.2s;
+}
+a:hover,
+a:active{
+    color:#b9b0b0;
+    border-bottom: 1px solid #b9b0b0;
+}
+
+/* div efffect*/
 div p{
     
     display: inline-block;
@@ -123,32 +143,37 @@ div p{
     padding-left: 5px;
     
 }
-
 /* ---------------------------*/
-/* icons */
+/* main content part   */
+/* ---------------------------*/
+.content-body{
+    margin-bottom: 1px;
+}
+/* ---------------------------*/
+/* left  */
 /* ---------------------------*/
 
 .left{
-	background: rgb(22, 47, 77);
-	width: 250px;
-	padding: 20px 20px;
-    margin-bottom: 15px;
+	background: rgb(22, 47, 77);	
+	padding: 18px 20px;
     float:left;
+    width:22%;
+    margin-right: 5px;
 }
 
 .left .text{
-	color: #9153c9;
+	color: rgb(22, 47, 77);
 	font-size: 13px;
 }
 
-.skills li,.Tools li,.Awards li,.certification li{
+.skills li,.Tools li,.Awards li,.certification li,.education li{
     list-style: none;
 }
 .title{
 	font-size: 20px;
 	font-weight: 500;
 	padding-bottom: 10px;
-	color: #3525af;
+	color: #ededed;
 	position: relative;
 	text-align: right;
 	margin-bottom: 15px;
@@ -161,10 +186,10 @@ div p{
 	right: 0;
 	width: 55px;
 	height: 2px;
-	background: #3525af;
+	background: #ededed;
 }
 .left .text{
-	color: #9153c9;	
+	color: rgb(22, 47, 77);	
 	font-size: 13px;
 }
 .left  .certification .text{		
@@ -177,7 +202,7 @@ div p{
 	justify-content: space-between;
 }
 .skills .li_wrap,.Tools .li_wrap{
-	width: 100px;
+	width: 102.5px;
 	height: 20px;
 	margin-bottom: 15px;
 	border-radius: 15px;
@@ -188,48 +213,63 @@ div p{
     background: #fff;
 }
 .Awards .li_wrap,.certification .li_wrap{
-    width: 200px;
-	height: 22px;
+    width: 205px;
+	height: 23px;
 	margin-bottom: 15px;
 	border-radius: 15px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
+	justify-content:center;
     background: #fff; 
 }
-
+.education .li_wrap{
+     width: 205px;
+	height: 30px;    
+    margin-bottom: 15px;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content:center;
+    background: #fff; 
+}
+.education .li_wrap .text{
+    font-size: 12px;
+    justify-content: center;
+    padding: 2px 2px 2px 8px;
+}
 .skills .li_wrap .text,
 .Tools .li_wrap .text{
-	margin-top: 5px 5px;    
+	margin-top: 5px 5px; 
+    
 }
 /* ---------------------------*/
 /* right side */
 /* ---------------------------*/
 .right{
-    width: 100%;
-    margin-right:2px;
+    width:78%;
+    box-sizing: border-box;
+    margin-left: 250px; 
+    padding: 2px;  
+    color: #292b2f;
+    
 }
 
-.right_inner{
-	padding: 2px;	
-	color: #292b2f;
-}
 
-.right_inner .education{
-	margin-top: 30px;
+.right .exp .title {
+    color:#1509ad;   
+    
 }
-
+.right .exp .title:before{
+	background: #1509ad;
+}
 /* ---------------------------*/
 /* right side spacing */
 /* ---------------------------*/
-.exp_wrap,.education_wrap{
-    padding-left: 270px;    
-        
-}
-.exp_wrap li,.education_wrap li{
+
+.exp_wrap li{    
     list-style: none;
-    
 }
 /* ---------------------------*/
 /* list formattting */
@@ -238,32 +278,50 @@ div p{
 .right_inner .li_wrap{
 	display: flex;
 	margin-bottom: 20px;
-}
-.right_inner .li_wrap .date {
-    width: 125px;
-    color: #1509ad;
-    font-size: 16px;
+    
 }
 
-.right_inner .li_wrap .info{
-	width: calc(100%  - 125px);
-	padding-left: 25px;
-	position: relative;
+.date {
+    width:10%;
+    color: #1509ad;
+    font-size: 15px;
+    padding: 2px 2px 0 2px;
+    
 }
-.right_inner .li_wrap .info_title{
+
+.info{
+    width:90%;
+	padding-left: 10px;
+	position: relative;
+    font-size: 16px;	
+	
+}
+
+ .info_title{
 	text-transform: uppercase;
 	font-weight: 700;
 	letter-spacing: 1px;
 	color: #1509ad;
+     margin-bottom: 1px;
+     
 }
+
 .right_inner .li_wrap .info_com{
-	font-weight: 300;
+	font-weight: 500;
 	font-size: 14px;
-	margin-top: 3px;
+	margin-top: 2px;
+    width:28%;
+    display: block;
+    text-align: left;    
+    padding-left: 5px;
+    color:#1509ad;
 }
+
 .right_inner .li_wrap .info_cont{
-	margin-top: 15px;
+	margin: 5px 2px 2px 0;
+    padding-bottom: 2px;
 }
+
 .right_inner .li_wrap .info:before{
 	content: "";
 	position: absolute;
@@ -271,9 +329,10 @@ div p{
 	left: 0;
 	width: 10px;
 	height: 10px;
-	background: #9153c9;
+	background: #1509AD;
 	border-radius: 50%;
 }
+
 
 .right_inner .li_wrap .info:after{
 	content: "";
@@ -281,65 +340,22 @@ div p{
 	top: 10px;
 	left: 4px;
 	width: 2px;
-	height: 90%;
-	background: #9153c9;
+	height: 93%;
+	background: #1509AD;
 }
 
-
-
-
-
-/* ---------------------------*/
 /* duration spacing */
-/* ---------------------------*/
-
-
-
-
-.right_inner .li_wrap .info{
-    font-size: 16px;	
-	padding-left: 25px;
-	position: relative;
-}
 
 .right_inner .education{
 	margin-top: 10px;    
 }
 
-.right_inner .li_wrap .info_title{
-	text-transform: uppercase;
-	font-weight: 700;
-	letter-spacing: 2px;
-	color: #1509ad;
+.info_cont{
+    text-align: left;
+    font-size: 14px;
+    margin: 3px 0;
 }
-.right_inner .li_wrap .info_com{
-	font-weight: 300;
-	font-size: 14px;
-	margin-top: 3px;
-}
-.right_inner .li_wrap .info_cont{
-	margin-top: 15px;
-}
-.right_inner .li_wrap .info:before{
-	content: "";
-	position: absolute;
-	top: 3px;
-	left: 0;
-	width: 10px;
-	height: 10px;
-	background:#1509ad ;
-	border-radius: 50%;
-}
-.right_inner .li_wrap .info:after{
-	content: "";
-	position: absolute;
-	top: 10px;
-	left: 4px;
-	width: 2px;
-	height: 90%;
-	background: #1509ad;
-}
-/* added again*/
+
 
 
 
