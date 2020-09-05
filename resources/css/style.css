@@ -2,9 +2,9 @@
 /* basic setup */
 /* ---------------------------*/
 *{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 html,body{
     background: linear-gradient(to right,#f4f4f4 , #f4f4f4);
@@ -24,61 +24,61 @@ body{
 /* reusable component */
 /* ---------------------------*/
 .genrealInfo,.contactInfo{
-	width:100%; 
-	  
+    width:100%; 
+
 }
- /* ---------------------------*/
+/* ---------------------------*/
 /* general/Contact info component */
 /* ---------------------------*/
 .genrealInfo{
     float: right;
     text-align: left;
-	background: rgb(22, 47, 77);	 
+    background: rgb(22, 47, 77);	 
 }
 .contactInfo{
-	overflow: hidden;
-	text-align: center;
+    overflow: hidden;
+    text-align: center;
     background: rgb(10, 29, 52);
-	padding:0 2px 2px 0;
-	color:#e6e6e6;
+    padding:0 2px 2px 0;
+    color:#e6e6e6;
 }
 /* ---------------------------*/
 /* image component */
 /* ---------------------------*/
 .profileImg{
-	float: left;    
+    float: left;    
 }
 .profileImg img{
-	width: 100px;
-	border-radius: 100px;
+    width: 100px;
+    border-radius: 100px;
 }
 
 /* ---------------------------*/
 /* name, role, about */
 /* ---------------------------*/
 .name,.role,.about{	
-	margin-left:10%;
-	color:#e5e5e5;
-	width:20%;  
+    margin-left:10%;
+    color:#e5e5e5;
+    width:20%;  
 }
 .name{    
     font-size: 130%;
-	font-weight: 700;
-	text-transform: uppercase;
+    font-weight: 700;
+    text-transform: uppercase;
     letter-spacing: 2px;
-	padding-bottom: 5px;
+    padding-bottom: 5px;
     margin-top:20px;   
 }
 .role{
     color:rgba(212, 212, 212, 0.92);
     font-size: 100%;
     letter-spacing: 1px;
-	padding-bottom: 10px;    
+    padding-bottom: 10px;    
 }
 .about{    
     font-size: 80%;
-	width:80%;
-	
+    width:80%;
+
 }
 
 /* ---------------------------*/
@@ -89,8 +89,8 @@ body{
     list-style: none;
     /*text-align: center;   */ 
     font-size: 75%;  
-	word-spacing: 5px;  
-	margin-right: 40px;;  
+    word-spacing: 5px;  
+    margin-right: 40px;;  
 }
 .contactInfo li{
     display: inline-block;
@@ -100,7 +100,7 @@ body{
 /* ---------------------------*/
 .li_wrap .cntFont{
     font-size: larger;
-	text-align: center;
+    text-align: center;
 }
 /* ---------------------------*/
 /* anchor hover efect */
@@ -130,106 +130,106 @@ div p{
 /* ---------------------------*/
 .left{
     background: rgb(22, 47, 77);
-	padding: 1% 1%;
+    padding: 1% 1%;
     float:left;
-	width:22%;
-	 
+    width:22%;
+
 }
 /* left Title formatting */
 .title{
-	font-size: 20px;
-	font-weight: 500;
-	padding-bottom: 10px;
-	color: #ededed;
-	position: relative;
-	text-align: right;
-	margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    color: #ededed;
+    position: relative;
+    text-align: right;
+    margin-bottom: 15px;
 }
 
 .title:before{
-	content: "";
-	position: absolute;
-	top: 30px;
-	right: 0;
-	width: 55px;
-	height: 2px;
-	background: #ededed;
+    content: "";
+    position: absolute;
+    top: 30px;
+    right: 0;
+    width: 55px;
+    height: 2px;
+    background: #ededed;
 }
 /* left each block formatting */
 .left li {
-	list-style: none;
-	box-sizing: inherit;	
+    list-style: none;
+    box-sizing: inherit;	
 }
 .left ul{
-	display: flex;
-	flex-wrap: wrap;	
-	justify-content: space-between;	
+    display: flex;
+    flex-wrap: wrap;	
+    justify-content: space-between;	
 }
 .left .text{
-	color: rgb(22, 47, 77);
-	font-size: 13px;
+    color: rgb(22, 47, 77);
+    font-size: 13px;
 }
 .left  .certification .text{
-	font-size: 12.5px;
+    font-size: 12.5px;
 } 
 
 .skills .li_wrap,.tools .li_wrap{
-	width: 110px;
-	height: 20px;	
-	border-radius: 15px;
-	display: flex;
-	margin: 8px auto;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+    width: 110px;
+    height: 20px;	
+    border-radius: 15px;
+    display: flex;
+    margin: 8px auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background: #fff;
 }
 .Award .li_wrap,
 .certification .li_wrap{
-	width: 220px;
-	height: 25px;
-	margin: 8px auto;
-	border-radius: 15px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content:center;
-  background: #fff;
+    width: 220px;
+    height: 25px;
+    margin: 8px auto;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    background: #fff;
 }
 .education .li_wrap{
-   width: 220px;
-   height: 30px;
-   margin-bottom: 15px;
-   border-radius: 15px;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content:center;
-   background: #fff;
+    width: 220px;
+    height: 30px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    background: #fff;
 }
 .education .li_wrap .text{
-   font-size: 12px;
-   justify-content: center;
-   padding: 2px 2px 2px 8px;
+    font-size: 12px;
+    justify-content: center;
+    padding: 2px 2px 2px 8px;
 }
 .skills,.tools,.Award,.certification{
-	margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 /* ---------------------------*/
 /* right side */
 /* ---------------------------*/
 .right{		  
-	color: #292b2f;
-	overflow: hidden;
-	width:78%;
-	
+    color: #292b2f;
+    overflow: hidden;
+    width:78%;
+
 }
 .right .exp .title {
     color:#1509ad;
 
 }
 .right .exp .title:before{
-	background: #1509ad;
+    background: #1509ad;
 }
 /* ---------------------------*/
 /* right side spacing */
@@ -243,8 +243,8 @@ div p{
 /* ---------------------------*/
 
 .exp_wrap .li_wrap{
-	display: flex;
-	margin-bottom: 20px;
+    display: flex;
+    margin-bottom: 20px;
 }
 /* date field format*/
 .date {
@@ -252,37 +252,37 @@ div p{
     color: #1509ad;
     font-size: 17px;
     padding: 2px 2px 0 2px;
-	position: relative;
-	/*writing-mode: vertical-rl;
-	text-orientation: mixed;*/
-	text-align: center;
-	display: flex;
-	align-items: center;
+    position: relative;
+    /*writing-mode: vertical-rl;
+    text-orientation: mixed;*/
+    text-align: center;
+    display: flex;
+    align-items: center;
     justify-content: center;
-   
+
 }
 /* top div format*/
 .info{
     width:90%;
-	padding-left: 10px;
-	position: relative;
+    padding-left: 10px;
+    position: relative;
     font-size: 20px;
 
 }
 /* job title field format*/
- .info_title{
-	text-transform: uppercase;
-	font-weight: 700;
-	letter-spacing: 2px;
-	color: #1509ad;
+.info_title{
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #1509ad;
     margin: 0px 1px 5px 10px;
 }
 
 /* comaany name field format*/
 .info_com{
-	font-weight: 500;
-	font-size: 85%;
-	margin: 2px 1px 5px 10px; 
+    font-weight: 500;
+    font-size: 85%;
+    margin: 2px 1px 5px 10px; 
     display: block;
     text-align: left;
     padding-left: 5px;
@@ -297,22 +297,22 @@ div p{
 }
 /* left long line format*/
 .exp .li_wrap .info:before{
-	content: "";
-	position: absolute;
-	top: 3px;
-	left: 0;
-	width: 10px;
-	height: 10px;	
-	background: #1509AD;
-	border-radius: 50%;
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 0;
+    width: 10px;
+    height: 10px;	
+    background: #1509AD;
+    border-radius: 50%;
 }
 
 .exp .li_wrap .info:after{
-	content: "";
-	position: absolute;
-	top: 10px;
-	left: 4px;
-	width: 2px;
-	height: 93%;
-	background: #1509AD;
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 4px;
+    width: 2px;
+    height: 93%;
+    background: #1509AD;
 }

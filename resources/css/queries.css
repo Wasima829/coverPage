@@ -1,381 +1,383 @@
 /* MOBILE TO IPAD */
 /* ============== */
 @media (min-width: 852px) and (max-width: 1137px){  
-   .name,.role {
-    width:80%; 
-    margin-left: 115px;  
-  }
-  .about{
-    width:83%;     
-    margin-bottom: 10px;
-    margin-left: 115px; 
-  }
-  .contactInfo .li_wrap li{    
-  font-size: 65%;  
-	word-spacing: 20px;  
-  margin:0 auto;
-  padding-right: 5px;
-}
-.left{
- width:18%; 
-}
-.title{
-	font-size: 15px;
-	font-weight: 400;	
-}
-.title:before{  
-	top: 25px;
-	right: 0;
-	width: 50px;
-	height: 2px;	
-}
-.left .text{
-	font-size: 12px;
-}
-.left  .certification .text{
-	font-size: 12px;
-} 
-.skills .li_wrap,.tools .li_wrap{
-	width: 100px;
-	height: 18px;	
-  border-radius: 12px;	
-  margin-left: 20%;
-  margin-right: 10%;
-	
-}
-.Award .li_wrap,
-.certification .li_wrap{
-	width: 135px;
-	height: 35px;
-	border-radius: 12px;
- margin:10px auto;
-}
-.education .li_wrap{
-  width: 135px;
-   height: 35px;   
-   border-radius: 12px;  
-   margin:10px auto; 
-}
-.education .li_wrap .text{
-   font-size: 10px;   
-}
- 
-/* RIGHT SIDE */
+    .name,.role {
+        width:80%; 
+        margin-left: 115px;  
+    }
+    .about{
+        width:83%;     
+        margin-bottom: 10px;
+        margin-left: 115px; 
+    }
+    .contactInfo .li_wrap li{    
+        font-size: 65%;  
+        word-spacing: 20px;  
+        margin:0 auto;
+        padding-right: 5px;
+    }
+    .left{
+        width:18%; 
+    }
+    .title{
+        font-size: 15px;
+        font-weight: 400;	
+    }
+    .title:before{  
+        top: 25px;
+        right: 0;
+        width: 50px;
+        height: 2px;	
+    }
+    .left .text{
+        font-size: 12px;
+    }
+    .left  .certification .text{
+        font-size: 12px;
+    } 
+    .skills .li_wrap,.tools .li_wrap{
+        width: 100px;
+        height: 18px;	
+        border-radius: 12px;	
+        margin-left: 20%;
+        margin-right: 10%;
 
-.right{	 
-  width:80%;
-  margin-left: 2px;
-  padding-left: 5px;
-}
-.exp_wrap .li_wrap{	
-	margin-bottom: 25px;
-}
-.date {
- width:12%;  
-}
+    }
+    .Award .li_wrap,
+    .certification .li_wrap{
+        width: 135px;
+        height: 35px;
+        border-radius: 12px;
+        margin:10px auto;
+    }
+    .education .li_wrap{
+        width: 135px;
+        height: 35px;   
+        border-radius: 12px;  
+        margin:10px auto; 
+    }
+    .education .li_wrap .text{
+        font-size: 10px;   
+    }
 
-.info{
-width:85%;
-padding-left: 15px;
-;
+    /* RIGHT SIDE */
 
-}
-.title-right{
-  font-size:21px;
-}
+    .right{	 
+        width:80%;
+        margin-left: 2px;
+        padding-left: 5px;
+    }
+    .exp_wrap .li_wrap{	
+        margin-bottom: 25px;
+    }
+    .date {
+        width:12%;  
+    }
 
-/* comaany name field format*/
-.info_com{
-	font-weight: 500;
-	font-size: 90%;
-	margin: 2px 1px 8px 10px; 
-    
-}
-/* information formatting ( details of the work) */
-.info_cont{
-    font-size: 80%;
-    margin: 0px 1px 8px 10px;
-    padding-bottom: 2px;
-}
-/* left long line format*/
-.exp .li_wrap .info:before{
-	content: "";
-	position: absolute;
-	top: 3px;
-	left: 0;
-	width: 10px;
-	height: 10px;	
-	background: #1509AD;
-	border-radius: 50%;
-}
+    .info{
+        width:85%;
+        padding-left: 15px;
+        ;
 
-.exp .li_wrap .info:after{
-	content: "";
-	position: absolute;
-	top: 10px;
-	left: 4px;
-	width: 2px;
-	height: 93%;
-	background: #1509AD;
-}
+    }
+    .title-right{
+        font-size:21px;
+    }
+
+    /* comaany name field format*/
+    .info_com{
+        font-weight: 500;
+        font-size: 90%;
+        margin: 2px 1px 8px 10px; 
+
+    }
+    /* information formatting ( details of the work) */
+    .info_cont{
+        font-size: 80%;
+        margin: 0px 1px 8px 10px;
+        padding-bottom: 2px;
+    }
+    /* left long line format*/
+    .exp .li_wrap .info:before{
+        content: "";
+        position: absolute;
+        top: 3px;
+        left: 0;
+        width: 10px;
+        height: 10px;	
+        background: #1509AD;
+        border-radius: 50%;
+    }
+
+    .exp .li_wrap .info:after{
+        content: "";
+        position: absolute;
+        top: 10px;
+        left: 4px;
+        width: 2px;
+        height: 93%;
+        background: #1509AD;
+    }
 }
 
 /* mid range */
 @media (min-width: 500px) and (max-width: 851px){
-  .name,.role {
-    width:70%; 
-    margin-left: 115px;  
-  }
-  .about{
-    width:78%; 
-    margin-left: 115px; 
-    font-size:80%;
-  }
-  .contactInfo .li_wrap li{    
-  font-size: 60%;  
-	word-spacing: 10px;  
-  margin:0 auto;
-  padding-right: 2px;
-}
-.left{
- width:25%; 
-}
-.title{
-	font-size: 12px;
-	font-weight: 400;	
-}
-.title:before{  
-	top: 24px;
-	right: 0;
-	width: 50px;
-	height: 2px;	
-}
-.left .text{
-	font-size: 11px;
-}
-.left  .certification .text{
-	font-size: 11px;
-} 
-.skills .li_wrap,.tools .li_wrap{
-	width: 90px;
-	height: 18px;	
-  
-	
-}
-.Award .li_wrap,
-.certification .li_wrap{
-	width: 110px;
-	
-	
-}
-.education .li_wrap{
-  width: 110px;
+    .name,.role {
+        width:70%; 
+        margin-left: 115px;  
+    }
+    .about{
+        width:78%; 
+        margin-left: 115px; 
+        font-size:80%;
+    }
+    .contactInfo .li_wrap li{    
+        font-size: 60%;  
+        word-spacing: 10px;  
+        margin:0 auto;
+        padding-right: 2px;
+    }
+    .left{
+        width:25%; 
+    }
+    .title{
+        font-size: 12px;
+        font-weight: 400;	
+    }
+    .title:before{  
+        top: 24px;
+        right: 0;
+        width: 50px;
+        height: 2px;	
+    }
+    .left .text{
+        font-size: 11px;
+    }
+    .left  .certification .text{
+        font-size: 11px;
+    } 
+    .skills .li_wrap,.tools .li_wrap{
+        width: 90px;
+        height: 18px;	
 
-}
-.education .li_wrap .text{
-   font-size: 9px;   
-}
- 
-/* RIGHT SIDE */
 
-.right{	 
-  width:75%;
- 
-}
-.exp_wrap .li_wrap{	
-	margin-bottom: 15px;
-}
-.date {
- width:13%; 
- font-size:70%; 
- margin-left: 5px;
-}
+    }
+    .Award .li_wrap,
+    .certification .li_wrap{
+        width: 110px;
 
-.info{
-width:80%;
-padding-left: 15px;
-;
 
-}
-.title-right{
-  font-size:17px;
-}
+    }
+    .education .li_wrap{
+        width: 110px;
 
-/* comaany name field format*/
-.info_com{
-	font-weight: 400;
-	font-size: 60%;
-	margin: 2px 1px 8px 10px; 
-    
-}
-/* information formatting ( details of the work) */
-.info_cont{
-    font-size: 60%;
-    margin: 0px 1px 8px 10px;
-    padding-bottom: 2px;
-}
-/* left long line format*/
-.exp .li_wrap .info:before{
-	display: none;
-}
+    }
+    .education .li_wrap .text{
+        font-size: 9px;   
+    }
 
-.exp .li_wrap .info:after{
-  display: none;
-}
+    /* RIGHT SIDE */
+
+    .right{	 
+        width:75%;
+
+    }
+    .exp_wrap .li_wrap{	
+        margin-bottom: 15px;
+    }
+    .date {
+        width:13%; 
+        font-size:70%; 
+        margin-left: 5px;
+    }
+
+    .info{
+        width:80%;
+        padding-left: 15px;
+        ;
+
+    }
+    .title-right{
+        font-size:17px;
+    }
+
+    /* comaany name field format*/
+    .info_com{
+        font-weight: 400;
+        font-size: 60%;
+        margin: 2px 1px 8px 10px; 
+
+    }
+    /* information formatting ( details of the work) */
+    .info_cont{
+        font-size: 60%;
+        margin: 0px 1px 8px 10px;
+        padding-bottom: 2px;
+    }
+    /* left long line format*/
+    .exp .li_wrap .info:before{
+        display: none;
+    }
+
+    .exp .li_wrap .info:after{
+        display: none;
+    }
 
 }  
 /*mobile phone*/
 @media  (max-width: 500px){
-  *{box-sizing: content-box;
-  margin:2px 2px}
-  
-  .genrealInfo{
-    float: none;   
-}
-  .profileImg{
-    float: none;    
-  }
-  .profileImg img{
-    width: 100%;   
-    border-radius: 10px;
-  }
-  .name,.role,.about{	 
-   width:80%;
-   display: grid;       
-  }
-  .name{     
-    font-size: 150%;     
-    letter-spacing: 0px; 
-}
-.role{  
-  font-size: 100%; 
-  letter-spacing: 0px;    
-}
-.about{    
-  font-size: 80%;
-  width:98%;
-  color:#e5e5e5;
-   font-size: 80%;
-   padding: 10px 2px 15px 7px;
-}
-.contactInfo .li_wrap li{  
-display: grid;
-font-size: 75%;   
-}
-
-/* ---------------------------*/
-/* icons */
-/* ---------------------------*/
-.li_wrap .cntFont{
-  font-size: larger;
-text-align: center;
-}
-/* ---------------------------*/
-/* anchor hover efect */
-/* ---------------------------*/
-.left{
-float:none;
-width:100%; 
-}
-.title{
-	font-size: 22px;
-	font-weight: 400;
-	padding:10px 10px;
-		text-align: center;
-	margin-bottom: 10px;
-}
-
-.title:before{
-	content: "";
-	top: 40px;
-	left: 40%;
-	width: 20%;	
-}
-
-.left .text{	
-	font-size: 12px;
-}
-.left  .certification .text{
-	font-size: 13px;
-} 
-.left ul{
-  justify-content:space-evenly;
-}
-
-.skills .li_wrap,.tools .li_wrap{
-	width: 150px;
-	height: 18px;	
-	border-radius: 13px;	
-	justify-content: space-evenly;
-}
-.Award .li_wrap,
-.certification .li_wrap{
-	width: 250px;
-}
-.education .li_wrap{
-   width: 250px;  
-}
-.education .li_wrap .text{
-   font-size: 12px;   
-}
-.right{		 	
-	overflow: none;
-  width:100%;	
-  margin-left: 2px;;
-}
-.title-right{
-  font-size:25px;
-  margin-bottom: 5px;
-}
-.right .exp .title:before{
-	margin-top: 5px;
-}
-.exp_wrap .li_wrap{
-  display: block;
-  padding-left:2px;
-}
-/* wasim is editing this*/
-.date { 
-  width:40%; 
-  font-size: 16px;
-  padding: 2px 5px 2px 10px;
-position: relative  ;
-text-align: left;
-display: inline; 
-
-}
-/* job title field format*/
-.info_title{ 
-  font-weight: 400;
-  margin: 15px 1px 5px 0px; 
-  font-size:14px;
-  letter-spacing: 0px;
-  width: 45%;
-  box-sizing: border-box;
-  text-align: left;
-  }
-  
-  /* comaany name field format*/
-  .info_com{
-    font-size:14px;
-     width: 45%;
-  box-sizing: border-box;
-  font-weight: 400;
-   margin: 2px 1px 5px 0px; 
-    display: inline-block;
-    text-align: right;
-    padding-left: 0px;
+    *{box-sizing: content-box;
+        
     
-  }
+    }
 
-/* left long line format*/
-.exp .li_wrap .info:before{
-  display: none;
-}
+    .genrealInfo{
+        float: none;   
+    }
+    .profileImg{
+        float: none;    
+    }
+    .profileImg img{
+        width: 100%;   
+        border-radius: 10px;
+    }
+    .name,.role,.about{	 
+        width:80%;
+        display: grid;       
+    }
+    .name{     
+        font-size: 150%;     
+        letter-spacing: 0px; 
+    }
+    .role{  
+        font-size: 100%; 
+        letter-spacing: 0px;    
+    }
+    .about{    
+        font-size: 80%;
+        width:98%;
+        color:#e5e5e5;
+        font-size: 80%;
+        padding: 10px 2px 15px 7px;
+    }
+    .contactInfo .li_wrap li{  
+        display: grid;
+        font-size: 75%;   
+    }
 
-.exp .li_wrap .info:after{
-display: none;
-}
+    /* ---------------------------*/
+    /* icons */
+    /* ---------------------------*/
+    .li_wrap .cntFont{
+        font-size: larger;
+        text-align: center;
+    }
+    /* ---------------------------*/
+    /* anchor hover efect */
+    /* ---------------------------*/
+    .left{
+        float:none;
+        width:100%; 
+    }
+    .title{
+        font-size: 22px;
+        font-weight: 400;
+        padding:10px 10px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .title:before{
+        content: "";
+        top: 40px;
+        left: 40%;
+        width: 20%;	
+    }
+
+    .left .text{	
+        font-size: 12px;
+    }
+    .left  .certification .text{
+        font-size: 13px;
+    } 
+    .left ul{
+        justify-content:space-evenly;
+    }
+
+    .skills .li_wrap,.tools .li_wrap{
+        width: 150px;
+        height: 18px;	
+        border-radius: 13px;	
+        justify-content: space-evenly;
+    }
+    .Award .li_wrap,
+    .certification .li_wrap{
+        width: 250px;
+    }
+    .education .li_wrap{
+        width: 250px;  
+    }
+    .education .li_wrap .text{
+        font-size: 12px;   
+    }
+    .right{		 	
+        overflow: none;
+        width:100%;	
+        margin-left: 2px;;
+    }
+    .title-right{
+        font-size:25px;
+        margin-bottom: 5px;
+    }
+    .right .exp .title:before{
+        margin-top: 5px;
+    }
+    .exp_wrap .li_wrap{
+        display: block;
+        padding-left:2px;
+    }
+    /* wasim is editing this*/
+    .date { 
+        width:40%; 
+        font-size: 16px;
+        padding: 2px 5px 2px 10px;
+        position: relative  ;
+        text-align: left;
+        display: inline; 
+
+    }
+    /* job title field format*/
+    .info_title{ 
+        font-weight: 400;
+        margin: 15px 1px 5px 0px; 
+        font-size:14px;
+        letter-spacing: 0px;
+        width: 45%;
+        box-sizing: border-box;
+        text-align: left;
+    }
+
+    /* comaany name field format*/
+    .info_com{
+        font-size:14px;
+        width: 45%;
+        box-sizing: border-box;
+        font-weight: 400;
+        margin: 2px 1px 5px 0px; 
+        display: inline-block;
+        text-align: right;
+        padding-left: 0px;
+
+    }
+
+    /* left long line format*/
+    .exp .li_wrap .info:before{
+        display: none;
+    }
+
+    .exp .li_wrap .info:after{
+        display: none;
+    }
 
 
 }
