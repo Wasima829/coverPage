@@ -1,364 +1,381 @@
-/* big tablets to 1200px*/
-
-/*@media only screen and (max-width:1200px){
-    
-    .genrealInfo,.contactInfo{
-        padding: 0 2%;
-        
-    }
-
-}
-*/
-
-/* small tablets .. 767 to 1023px*/
-
-@media only screen and (max-width:1139px){
-    html,body{
-      margin:0px 10px;
-    }
-    .profileImg{    
-    margin-left: 7px;	
-}
-.profileImg img{
-	width: 80px;
-	border-radius: 80px;
-}
- 
-.name,.role,.about{
-    margin-left:120px;
-    margin-right: 20px;     
-    
-} 
-.name{    
-    font-size: 100%;
-	font-weight: 500;	
-    letter-spacing: 1.5px;
-	padding-bottom: 4px;
-    margin-top:15px;
-    width:25%;
-}
-.role{    
-    font-size: 70%;
-    letter-spacing: 1px;
-	padding-bottom: 8px;
-    width:25%;
-}
-.about{
-    color:#e5e5e5;
-    font-size: 60%;
-    width:80%;    
-}
-.contactInfo ul{     
-    font-size: 60%;
-    margin-left: 10%;   
-    word-spacing: 45px;    
-    padding-left: 20px;
-     margin-right:-50px;    
-    
-}
-div p{    
-    margin:8px 2px;
-    padding-left: 3.5px;    
+/* MOBILE TO IPAD */
+/* ============== */
+@media (min-width: 852px) and (max-width: 1137px){  
+   .name,.role {
+    width:80%; 
+    margin-left: 115px;  
+  }
+  .about{
+    width:83%;     
+    margin-bottom: 10px;
+    margin-left: 115px; 
+  }
+  .contactInfo .li_wrap li{    
+  font-size: 65%;  
+	word-spacing: 20px;  
+  margin:0 auto;
+  padding-right: 5px;
 }
 .left{
-	padding: 15px 18px 1px 18px;
-    float:left;
-    width:27%;
-    margin-right: 4px;
-    position: relative;
+ width:18%; 
 }
-
-.left .text{
-	font-size: 10px;
+.title{
+	font-size: 15px;
+	font-weight: 400;	
 }
-    .title{
-	font-size: 80%;
-	font-weight: 80%;
-	padding-bottom: 8px;
-	margin-bottom: 12px;
-}
-
-.title:before{
-	content: "";
-	top: 23px;
+.title:before{  
+	top: 25px;
 	right: 0;
-	width: 17%;
-	height: 1.5px;	
+	width: 50px;
+	height: 2px;	
 }
 .left .text{
-	font-size: 60%;
+	font-size: 12px;
 }
-.left  .certification .text{		
-	font-size: 9.5px;
+.left  .certification .text{
+	font-size: 12px;
+} 
+.skills .li_wrap,.tools .li_wrap{
+	width: 100px;
+	height: 18px;	
+  border-radius: 12px;	
+  margin-left: 20%;
+  margin-right: 10%;
+	
 }
-    .skills_wrap .pb{
-      box-sizing: border-box;  
-    }
-.skills .li_wrap,.Tools .li_wrap{    
-	width: 80px;    
-	height: 15px;
-	margin-bottom: 11px;
-	border-radius: 11px;
-    
-}
-.Awards .li_wrap,.certification .li_wrap{
-    width: 170px;
-	height: 20px;
-	margin-bottom: 11px;
-	border-radius: 11px; 
+.Award .li_wrap,
+.certification .li_wrap{
+	width: 135px;
+	height: 35px;
+	border-radius: 12px;
+ margin:10px auto;
 }
 .education .li_wrap{
-     width: 180px;
-	height: 18px;    
-    margin-bottom: 11px;
-	border-radius: 11px;
+  width: 135px;
+   height: 35px;   
+   border-radius: 12px;  
+   margin:10px auto; 
 }
 .education .li_wrap .text{
-    font-size: 10px;
-    
+   font-size: 10px;   
 }
-    .right{
-    width:70%;
-    margin-left: 28%; 
-    
-}
+ 
+/* RIGHT SIDE */
 
-    
-    .right_inner .li_wrap{
-	margin-bottom: 16px;
-    
+.right{	 
+  width:80%;
+  margin-left: 2px;
+  padding-left: 5px;
 }
-
+.exp_wrap .li_wrap{	
+	margin-bottom: 25px;
+}
 .date {
-    width:12.5%;
-    font-size: 12px;
-    padding: 1.5px 1.5px 0 1.5px;
-    
+ width:12%;  
 }
 
 .info{
-    width:95%;
-	font-size: 60%;	
-	
+width:85%;
+padding-left: 15px;
+;
+
+}
+.title-right{
+  font-size:21px;
 }
 
- .info_title{
-	font-weight: 80%;	 
-}
-
-.right_inner .li_wrap .info_com{
-	font-weight: 80%;
+/* comaany name field format*/
+.info_com{
+	font-weight: 500;
 	font-size: 90%;
-	margin-top: 2px;
-    width:20%;
-    }
-
-
-.right_inner .li_wrap .info:before{
-	top: 2.5px;
-	left: 0;
-	width: 8px;
-	height: 8px;
-	background: #1509AD;
-	border-radius: 40%;
+	margin: 2px 1px 8px 10px; 
+    
 }
-
-
-.right_inner .li_wrap .info:after{
-	top: 6.5px;
-	left: 3px;
-	width: 2px;
-	height: 100%;
-	
-}
-
-/* duration spacing */
-
-
-
+/* information formatting ( details of the work) */
 .info_cont{
-    font-size: 90%;
-    margin: 3px 0;
-}
-    
-   
-}
-
-/* small phone .. 480  to 767 px*/
-
-@media only screen and (max-width:767px){
-   
-    html,body{
-      margin:0px 8px;
-    }
-    .profileImg{    
-    margin-left: 5px;	
-}
-.profileImg img{
-	width: 70px;
-	border-radius: 70px;
-}
- 
-.name,.role,.about{
-    margin-left:100px;
-    margin-right: 15px;     
-    
-} 
-.name{    
     font-size: 80%;
-	font-weight: 80%;	
-    letter-spacing: 1px;
-	padding-bottom: 3px;
-    margin-top:10px;
-    width:30%;
+    margin: 0px 1px 8px 10px;
+    padding-bottom: 2px;
 }
-.role{    
-    font-size: 60%;
-    padding-bottom: 6px;
-    width:30%;
+/* left long line format*/
+.exp .li_wrap .info:before{
+	content: "";
+	position: absolute;
+	top: 3px;
+	left: 0;
+	width: 10px;
+	height: 10px;	
+	background: #1509AD;
+	border-radius: 50%;
 }
-.about{
-    font-size: 65%;
-    width:85%;    
+
+.exp .li_wrap .info:after{
+	content: "";
+	position: absolute;
+	top: 10px;
+	left: 4px;
+	width: 2px;
+	height: 93%;
+	background: #1509AD;
 }
-.contactInfo ul{     
-    font-size: 50%;
-    margin-left: 10%;   
-    word-spacing: 20px;    
-     margin-right:-5px;       
-    
 }
-div p{    
-    margin:6px 1px;
-    padding-left: 2px;    
+
+/* mid range */
+@media (min-width: 500px) and (max-width: 851px){
+  .name,.role {
+    width:70%; 
+    margin-left: 115px;  
+  }
+  .about{
+    width:78%; 
+    margin-left: 115px; 
+    font-size:80%;
+  }
+  .contactInfo .li_wrap li{    
+  font-size: 60%;  
+	word-spacing: 10px;  
+  margin:0 auto;
+  padding-right: 2px;
 }
 .left{
-	padding: 10px 15px 1px 15px;
-    width:25%;
-    margin-right: 4px;
-    position: relative;
+ width:25%; 
+}
+.title{
+	font-size: 12px;
+	font-weight: 400;	
+}
+.title:before{  
+	top: 24px;
+	right: 0;
+	width: 50px;
+	height: 2px;	
+}
+.left .text{
+	font-size: 11px;
+}
+.left  .certification .text{
+	font-size: 11px;
+} 
+.skills .li_wrap,.tools .li_wrap{
+	width: 90px;
+	height: 18px;	
+  
+	
+}
+.Award .li_wrap,
+.certification .li_wrap{
+	width: 110px;
+	
+	
+}
+.education .li_wrap{
+  width: 110px;
+
+}
+.education .li_wrap .text{
+   font-size: 9px;   
+}
+ 
+/* RIGHT SIDE */
+
+.right{	 
+  width:75%;
+ 
+}
+.exp_wrap .li_wrap{	
+	margin-bottom: 15px;
+}
+.date {
+ width:13%; 
+ font-size:70%; 
+ margin-left: 5px;
 }
 
-.left .text{
-	font-size: 10px;
+.info{
+width:80%;
+padding-left: 15px;
+;
+
 }
-    .title{
+.title-right{
+  font-size:17px;
+}
+
+/* comaany name field format*/
+.info_com{
+	font-weight: 400;
 	font-size: 60%;
-	font-weight: 60%;
-	padding-bottom: 6px;
-	margin-bottom: 9px;
+	margin: 2px 1px 8px 10px; 
+    
+}
+/* information formatting ( details of the work) */
+.info_cont{
+    font-size: 60%;
+    margin: 0px 1px 8px 10px;
+    padding-bottom: 2px;
+}
+/* left long line format*/
+.exp .li_wrap .info:before{
+	display: none;
+}
+
+.exp .li_wrap .info:after{
+  display: none;
+}
+
+}  
+/*mobile phone*/
+@media  (max-width: 500px){
+  *{box-sizing: content-box;
+  margin:2px 2px}
+  
+  .genrealInfo{
+    float: none;   
+}
+  .profileImg{
+    float: none;    
+  }
+  .profileImg img{
+    width: 100%;   
+    border-radius: 10px;
+  }
+  .name,.role,.about{	 
+   width:80%;
+   display: grid;       
+  }
+  .name{     
+    font-size: 150%;     
+    letter-spacing: 0px; 
+}
+.role{  
+  font-size: 100%; 
+  letter-spacing: 0px;    
+}
+.about{    
+  font-size: 80%;
+  width:98%;
+  color:#e5e5e5;
+   font-size: 80%;
+   padding: 10px 2px 15px 7px;
+}
+.contactInfo .li_wrap li{  
+display: grid;
+font-size: 75%;   
+}
+
+/* ---------------------------*/
+/* icons */
+/* ---------------------------*/
+.li_wrap .cntFont{
+  font-size: larger;
+text-align: center;
+}
+/* ---------------------------*/
+/* anchor hover efect */
+/* ---------------------------*/
+.left{
+float:none;
+width:100%; 
+}
+.title{
+	font-size: 22px;
+	font-weight: 400;
+	padding:10px 10px;
+		text-align: center;
+	margin-bottom: 10px;
 }
 
 .title:before{
 	content: "";
-	top: 18px;
-	right: 0;
-	width: 20%;
-	height: 1.5px;	
+	top: 40px;
+	left: 40%;
+	width: 20%;	
 }
-.left .text{
-	font-size: 44%;
+
+.left .text{	
+	font-size: 12px;
 }
-.left  .certification .text{		
-	font-size: 40%;
+.left  .certification .text{
+	font-size: 13px;
+} 
+.left ul{
+  justify-content:space-evenly;
 }
-    .skills_wrap .pb{
-      box-sizing: border-box;  
-    }
-.skills .li_wrap,.Tools .li_wrap{    
-	width: 67px;    
-	height: 12px;
-	margin-bottom: 8px;
-	border-radius: 8px;
-    
+
+.skills .li_wrap,.tools .li_wrap{
+	width: 150px;
+	height: 18px;	
+	border-radius: 13px;	
+	justify-content: space-evenly;
 }
-.Awards .li_wrap,.certification .li_wrap{
-    width: 97px;
-	height: 17px;
-	margin-bottom: 8px;
-	border-radius: 8px;
+.Award .li_wrap,
+.certification .li_wrap{
+	width: 250px;
 }
 .education .li_wrap{
-    width: 97px;
-	height: 17px;
-	margin-bottom: 8px;
-	border-radius: 8px;
+   width: 250px;  
 }
 .education .li_wrap .text{
-    font-size: 30%;
+   font-size: 12px;   
+}
+.right{		 	
+	overflow: none;
+  width:100%;	
+  margin-left: 2px;;
+}
+.title-right{
+  font-size:25px;
+  margin-bottom: 5px;
+}
+.right .exp .title:before{
+	margin-top: 5px;
+}
+.exp_wrap .li_wrap{
+  display: block;
+  padding-left:2px;
+}
+/* wasim is editing this*/
+.date { 
+  width:40%; 
+  font-size: 16px;
+  padding: 2px 5px 2px 10px;
+position: relative  ;
+text-align: left;
+display: inline; 
+
+}
+/* job title field format*/
+.info_title{ 
+  font-weight: 400;
+  margin: 15px 1px 5px 0px; 
+  font-size:14px;
+  letter-spacing: 0px;
+  width: 45%;
+  box-sizing: border-box;
+  text-align: left;
+  }
+  
+  /* comaany name field format*/
+  .info_com{
+    font-size:14px;
+     width: 45%;
+  box-sizing: border-box;
+  font-weight: 400;
+   margin: 2px 1px 5px 0px; 
+    display: inline-block;
+    text-align: right;
+    padding-left: 0px;
     
-}
-    .right{
-    width:75%;
-    margin-left: 25%; 
-    
-}
+  }
 
-    
-    .right_inner .li_wrap{
-	margin-bottom: 10px;
-    
+/* left long line format*/
+.exp .li_wrap .info:before{
+  display: none;
 }
 
-.date {
-    width:13%;
-    font-size: 42%;
-        
-}
-
-.info{
-    width:95%;
-	font-size: 50%;	
-	
-}
-
- .info_title{
-	font-weight: 70%;	 
-}
-
-.right_inner .li_wrap .info_com{
-	font-weight: 65%;
-	font-size: 80%;
-	margin-top: 2px;
-    width:50%;
-    }
-
-
-.right_inner .li_wrap .info:before{
-	top: 2px;
-	left: 0;
-	width: 6px;
-	height: 6px;
-	border-radius: 30%;
+.exp .li_wrap .info:after{
+display: none;
 }
 
 
-.right_inner .li_wrap .info:after{
-	top: 5px;
-	left: 2px;
-	width: 1.5px;
-	height: 98%;
-	
-}
-
-/* duration spacing */
-
-
-
-.info_cont{
-    font-size: 88%;
-    margin: 2px 0;
-}
-     
-    
-    
-
-}
-
-/* small phone .. 0 to 480 px*/
-/*
-@media only screen and (max-width:480px){
-    section {padding: 25px 0 ;
-    }
-    .contact-form{width:100%; }
 }

@@ -4,7 +4,7 @@
 *{
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;	
+	box-sizing: border-box;
 }
 html,body{
     background: linear-gradient(to right,#f4f4f4 , #f4f4f4);
@@ -12,111 +12,96 @@ html,body{
     font-family: 'Lato','Aerial',sans-serif;
     font-weight: 500;
     font-size: 20px;
-    text-rendering: optimizeLegibility;  
-    overflow-x: hidden;	
-    
+    text-rendering: optimizeLegibility;
+    /*overflow-x: hidden;*/
 }
-body{	
-    max-width: 1140px;
+
+body{
+    max-width: 1200px;
     margin: auto auto;
-    
 }
 /* ---------------------------*/
 /* reusable component */
 /* ---------------------------*/
-
-.genrealInfo,.contactInfo{			
-	width:100%;
-    margin: 0 0;        
+.genrealInfo,.contactInfo{
+	width:100%; 
+	  
 }
-
+ /* ---------------------------*/
+/* general/Contact info component */
+/* ---------------------------*/
+.genrealInfo{
+    float: right;
+    text-align: left;
+	background: rgb(22, 47, 77);	 
+}
+.contactInfo{
+	overflow: hidden;
+	text-align: center;
+    background: rgb(10, 29, 52);
+	padding:0 2px 2px 0;
+	color:#e6e6e6;
+}
 /* ---------------------------*/
 /* image component */
 /* ---------------------------*/
 .profileImg{
-    text-align: left;
-    margin-left: 10px;
-	padding: 2px 2px 0 1px;
-    float: left;
+	float: left;    
 }
 .profileImg img{
 	width: 100px;
 	border-radius: 100px;
 }
-/* ---------------------------*/
-/* general info component */
-/* ---------------------------*/
-.genrealInfo{    
-    float: right;
-    text-align: left;
-    background: rgb(22, 47, 77);  
-   
-    
-}
-.name,.role,.about{
-    margin-left:150px;
-    margin-right: 30px;
-     box-sizing: border-box;
-    
-}
 
 /* ---------------------------*/
 /* name, role, about */
 /* ---------------------------*/
-.name{
-    color:#e5e5e5;
-    font-size: 125%;
+.name,.role,.about{	
+	margin-left:10%;
+	color:#e5e5e5;
+	width:20%;  
+}
+.name{    
+    font-size: 130%;
 	font-weight: 700;
 	text-transform: uppercase;
     letter-spacing: 2px;
 	padding-bottom: 5px;
-    margin-top:20px;
-    width:18%;
+    margin-top:20px;   
 }
 .role{
     color:rgba(212, 212, 212, 0.92);
-    font-size: 90%;
+    font-size: 100%;
     letter-spacing: 1px;
-	padding-bottom: 10px;
-    width:18%;
+	padding-bottom: 10px;    
 }
-.about{
-    color:#e5e5e5;
+.about{    
     font-size: 80%;
-    width:75%;
-    
+	width:80%;
+	
 }
+
 /* ---------------------------*/
 /* contact details*/
 /* ---------------------------*/
-.contactInfo{    
-    text-align: left;
-    background: rgb(10, 29, 52);
-    padding:0 2px 2px 0; 
-   
-}
-.contactInfo ul{     
+/* have to fix it */
+.contactInfo .li_wrap li{
     list-style: none;
-    text-align: center;
-    color:#e6e6e6;
-    font-size: 75%;
-    margin-right:-20px;
-    word-spacing: 60px;
-    margin-left: 2px;
-    padding-left: 27px;
-    
+    /*text-align: center;   */ 
+    font-size: 75%;  
+	word-spacing: 5px;  
+	margin-right: 40px;;  
 }
 .contactInfo li{
     display: inline-block;
 }
-
 /* ---------------------------*/
 /* icons */
 /* ---------------------------*/
-.mobFont{
-    font-size: large;
+.li_wrap .cntFont{
+    font-size: larger;
+	text-align: center;
 }
-
 /* ---------------------------*/
 /* anchor hover efect */
 /* ---------------------------*/
@@ -128,18 +113,11 @@ a:visited{
     padding-bottom: 1px;
     transition: border-bottom .2s , color 0.2s;
 }
-a:hover,
-a:active{
-    color:#b9b0b0;
-    border-bottom: 1px solid #b9b0b0;
-}
-
 /* div efffect*/
-div p{    
+div p{
     display: inline-block;
     text-align: center;
-    margin:10px 2px;
-    padding-left: 5px;    
+    margin:8px 0;    
 }
 /* ---------------------------*/
 /* main content part   */
@@ -150,23 +128,14 @@ div p{
 /* ---------------------------*/
 /* left  */
 /* ---------------------------*/
-
 .left{
-	background: rgb(22, 47, 77);	
-	padding: 18px 20px 1px 20px;
+    background: rgb(22, 47, 77);
+	padding: 1% 1%;
     float:left;
-    width:22%;
-    margin-right: 5px;
+	width:22%;
+	 
 }
-
-.left .text{
-	color: rgb(22, 47, 77);
-	font-size: 13px;
-}
-
-.skills li,.Tools li,.Awards li,.certification li,.education li{
-    list-style: none;
-}
+/* left Title formatting */
 .title{
 	font-size: 20px;
 	font-weight: 500;
@@ -186,78 +155,78 @@ div p{
 	height: 2px;
 	background: #ededed;
 }
+/* left each block formatting */
+.left li {
+	list-style: none;
+	box-sizing: inherit;	
+}
+.left ul{
+	display: flex;
+	flex-wrap: wrap;	
+	justify-content: space-between;	
+}
 .left .text{
-	color: rgb(22, 47, 77);	
+	color: rgb(22, 47, 77);
 	font-size: 13px;
 }
-.left  .certification .text{		
-	font-size: 12px;
-}
+.left  .certification .text{
+	font-size: 12.5px;
+} 
 
-.skills ul,.Tools ul{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-}
-.skills .li_wrap,.Tools .li_wrap{
-	width: 102.5px;
-	height: 20px;
-	margin-bottom: 15px;
+.skills .li_wrap,.tools .li_wrap{
+	width: 110px;
+	height: 20px;	
 	border-radius: 15px;
 	display: flex;
+	margin: 8px auto;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
     background: #fff;
 }
-.Awards .li_wrap,.certification .li_wrap{
-    width: 205px;
-	height: 23px;
-	margin-bottom: 15px;
+.Award .li_wrap,
+.certification .li_wrap{
+	width: 220px;
+	height: 25px;
+	margin: 8px auto;
 	border-radius: 15px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content:center;
-    background: #fff; 
+  background: #fff;
 }
 .education .li_wrap{
-     width: 205px;
-	height: 30px;    
-    margin-bottom: 15px;
-	border-radius: 15px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content:center;
-    background: #fff; 
+   width: 220px;
+   height: 30px;
+   margin-bottom: 15px;
+   border-radius: 15px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content:center;
+   background: #fff;
 }
 .education .li_wrap .text{
-    font-size: 12px;
-    justify-content: center;
-    padding: 2px 2px 2px 8px;
+   font-size: 12px;
+   justify-content: center;
+   padding: 2px 2px 2px 8px;
 }
-.skills .li_wrap .text,
-.Tools .li_wrap .text{
-	margin-top: 5px 5px; 
-    
+.skills,.tools,.Award,.certification{
+	margin-bottom: 20px;
 }
 /* ---------------------------*/
 /* right side */
 /* ---------------------------*/
-.right{
-    width:78%;
-    box-sizing: border-box;
-    margin-left: 250px; 
-    padding: 2px;  
-    color: #292b2f;
-    
+.right{		  
+	color: #292b2f;
+	overflow: hidden;
+	width:78%;
+	
 }
-
-
 .right .exp .title {
-    color:#1509ad;   
-    
+    color:#1509ad;
+
 }
 .right .exp .title:before{
 	background: #1509ad;
@@ -265,74 +234,80 @@ div p{
 /* ---------------------------*/
 /* right side spacing */
 /* ---------------------------*/
-
-.exp_wrap li{    
+.exp_wrap li{
     list-style: none;
 }
+
 /* ---------------------------*/
 /* list formattting */
 /* ---------------------------*/
 
-.right_inner .li_wrap{
+.exp_wrap .li_wrap{
 	display: flex;
 	margin-bottom: 20px;
-    
 }
-
+/* date field format*/
 .date {
     width:10%;
     color: #1509ad;
-    font-size: 15px;
+    font-size: 17px;
     padding: 2px 2px 0 2px;
-    
+	position: relative;
+	/*writing-mode: vertical-rl;
+	text-orientation: mixed;*/
+	text-align: center;
+	display: flex;
+	align-items: center;
+    justify-content: center;
+   
 }
-
+/* top div format*/
 .info{
     width:90%;
 	padding-left: 10px;
 	position: relative;
-    font-size: 16px;	
-	
-}
+    font-size: 20px;
 
+}
+/* job title field format*/
  .info_title{
 	text-transform: uppercase;
 	font-weight: 700;
-	letter-spacing: 1px;
+	letter-spacing: 2px;
 	color: #1509ad;
-     margin-bottom: 1px;
-     
+    margin: 0px 1px 5px 10px;
 }
 
-.right_inner .li_wrap .info_com{
+/* comaany name field format*/
+.info_com{
 	font-weight: 500;
-	font-size: 14px;
-	margin-top: 2px;
-    width:28%;
+	font-size: 85%;
+	margin: 2px 1px 5px 10px; 
     display: block;
-    text-align: left;    
+    text-align: left;
     padding-left: 5px;
     color:#1509ad;
 }
-
-.right_inner .li_wrap .info_cont{
-	margin: 5px 2px 2px 0;
+/* information formatting ( details of the work) */
+.info_cont{
+    text-align: left;
+    font-size: 75%;
+    margin: 0px 1px 5px 10px;
     padding-bottom: 2px;
 }
-
-.right_inner .li_wrap .info:before{
+/* left long line format*/
+.exp .li_wrap .info:before{
 	content: "";
 	position: absolute;
 	top: 3px;
 	left: 0;
 	width: 10px;
-	height: 10px;
+	height: 10px;	
 	background: #1509AD;
 	border-radius: 50%;
 }
 
-
-.right_inner .li_wrap .info:after{
+.exp .li_wrap .info:after{
 	content: "";
 	position: absolute;
 	top: 10px;
@@ -341,48 +316,3 @@ div p{
 	height: 93%;
 	background: #1509AD;
 }
-
-/* duration spacing */
-
-.right_inner .education{
-	margin-top: 10px;    
-}
-
-.info_cont{
-    text-align: left;
-    font-size: 14px;
-    margin: 3px 0;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
