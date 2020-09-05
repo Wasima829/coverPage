@@ -226,8 +226,7 @@
 }  
 /*mobile phone*/
 @media  (max-width: 500px){
-    *{box-sizing: content-box;
-        
+    *{box-sizing: content-box;       
     
     }
 
@@ -238,27 +237,29 @@
         float: none;    
     }
     .profileImg img{
-        width: 100%;   
-        border-radius: 10px;
+     width: 100% !important;
+    height: inherit!important;           
+     border-radius: 10px;   
+    
     }
-    .name,.role,.about{	 
-        width:80%;
-        display: grid;       
+    .name,.role{	 
+        width:80%;             
     }
     .name{     
         font-size: 150%;     
         letter-spacing: 0px; 
+        
     }
     .role{  
         font-size: 100%; 
         letter-spacing: 0px;    
     }
-    .about{    
-        font-size: 80%;
-        width:98%;
-        color:#e5e5e5;
-        font-size: 80%;
-        padding: 10px 2px 15px 7px;
+    .about{  
+        box-sizing: boder-box; 
+        font-size: 70%;
+        width:100%;  
+        margin: 0 5px;
+       padding: 10px 2px;
     }
     .contactInfo .li_wrap li{  
         display: grid;
@@ -350,9 +351,9 @@
     .info_title{ 
         font-weight: 400;
         margin: 15px 1px 5px 0px; 
-        font-size:14px;
+        font-size:12px;
         letter-spacing: 0px;
-        width: 45%;
+        width: 46%;
         box-sizing: border-box;
         text-align: left;
     }
@@ -360,7 +361,7 @@
     /* comaany name field format*/
     .info_com{
         font-size:14px;
-        width: 45%;
+        width: 44%;
         box-sizing: border-box;
         font-weight: 400;
         margin: 2px 1px 5px 0px; 
